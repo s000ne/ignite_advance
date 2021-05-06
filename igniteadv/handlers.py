@@ -15,6 +15,7 @@ class ModelGraphHandler(BaseHandler):
     Args:
         model (torch.nn.Module): model to show
         data_loader (torch.utils.data.DataLoader): Data loader which supply training data to the model
+        device (torch.device or str): Device name or torch device object
     """
     def __init__(self, model: nn.Module, data_loader: Optional[DataLoader], device: Optional[Union[str, torch.device]] = None) -> None:
         super(ModelGraphHandler, self).__init__()

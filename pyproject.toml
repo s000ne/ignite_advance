@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ignite_advance"
+name = "igniteadv"
 version = "0.1.0"
 description = ""
 authors = ["s000ne <sone.h0710@gmail.com>"]
@@ -7,8 +7,8 @@ authors = ["s000ne <sone.h0710@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pytorch-ignite = "^0.4.2"
-torch = {url = "https://download.pytorch.org/whl/nightly/cu110/torch-1.8.0.dev20201224%2Bcu110-cp38-cp38-linux_x86_64.whl"}
-torchvision = {url = "https://download.pytorch.org/whl/nightly/cu110/torchvision-0.9.0.dev20201224%2Bcu110-cp38-cp38-linux_x86_64.whl"}
+torch = "^1.8.1"
+torchvision = "^0.9.0"
 
 [tool.poetry.dev-dependencies]
 
